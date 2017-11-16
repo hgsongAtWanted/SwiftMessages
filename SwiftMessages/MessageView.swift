@@ -162,6 +162,11 @@ extension MessageView {
          directly under the status bar (see the `ContentInsetting` protocol).
          */
         case statusLine = "StatusLine"
+        
+        /**
+         A 44pt tall view that can be used to overlay the navigation bar.
+        */
+        case navigationBarView = "NavigationBarView"
 
         /**
          A floating card-style view with elements centered and arranged vertically.
